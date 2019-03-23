@@ -10,7 +10,26 @@
 		981999B02243A81800E4CDC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981999AF2243A81800E4CDC5 /* AppDelegate.swift */; };
 		981999B22243A81A00E4CDC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 981999B12243A81A00E4CDC5 /* Assets.xcassets */; };
 		981999B52243A81B00E4CDC5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 981999B32243A81B00E4CDC5 /* MainMenu.xib */; };
+		981999D22246017700E4CDC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 981999D12246017700E4CDC5 /* AppDelegate.m */; };
+		981999D42246017800E4CDC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 981999D32246017800E4CDC5 /* Assets.xcassets */; };
+		981999D72246017800E4CDC5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 981999D52246017800E4CDC5 /* MainMenu.xib */; };
+		981999DA2246017800E4CDC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 981999D92246017800E4CDC5 /* main.m */; };
+		981999E32246023D00E4CDC5 /* RunScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 981999E12246023D00E4CDC5 /* RunScript.m */; };
+		981999E6224603C700E4CDC5 /* Gatekeeper-Bypass.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 981999AC2243A81800E4CDC5 /* Gatekeeper-Bypass.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		981999E5224603BE00E4CDC5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				981999E6224603C700E4CDC5 /* Gatekeeper-Bypass.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		981999AC2243A81800E4CDC5 /* Gatekeeper-Bypass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gatekeeper-Bypass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,10 +38,27 @@
 		981999B42243A81B00E4CDC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		981999B62243A81B00E4CDC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		981999C12243AAFD00E4CDC5 /* Gatekeeper-Bypass.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Gatekeeper-Bypass.entitlements"; sourceTree = "<group>"; };
+		981999CE2246017700E4CDC5 /* Gatekeeper-Bypass Loader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gatekeeper-Bypass Loader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		981999D02246017700E4CDC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		981999D12246017700E4CDC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		981999D32246017800E4CDC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		981999D62246017800E4CDC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		981999D82246017800E4CDC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		981999D92246017800E4CDC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		981999DF2246018D00E4CDC5 /* Gatekeeper-Bypass Loader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Gatekeeper-Bypass Loader.entitlements"; sourceTree = "<group>"; };
+		981999E12246023D00E4CDC5 /* RunScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunScript.m; sourceTree = "<group>"; };
+		981999E22246023D00E4CDC5 /* RunScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunScript.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		981999A92243A81800E4CDC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981999CB2246017700E4CDC5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				981999AE2243A81800E4CDC5 /* Gatekeeper-Bypass */,
+				981999CF2246017700E4CDC5 /* Gatekeeper-Bypass Loader */,
 				981999AD2243A81800E4CDC5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				981999AC2243A81800E4CDC5 /* Gatekeeper-Bypass.app */,
+				981999CE2246017700E4CDC5 /* Gatekeeper-Bypass Loader.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,13 +89,45 @@
 		981999AE2243A81800E4CDC5 /* Gatekeeper-Bypass */ = {
 			isa = PBXGroup;
 			children = (
-				981999C12243AAFD00E4CDC5 /* Gatekeeper-Bypass.entitlements */,
 				981999AF2243A81800E4CDC5 /* AppDelegate.swift */,
+				981999E42246031B00E4CDC5 /* Support Files */,
+			);
+			path = "Gatekeeper-Bypass";
+			sourceTree = "<group>";
+		};
+		981999CF2246017700E4CDC5 /* Gatekeeper-Bypass Loader */ = {
+			isa = PBXGroup;
+			children = (
+				981999D92246017800E4CDC5 /* main.m */,
+				981999E22246023D00E4CDC5 /* RunScript.h */,
+				981999E12246023D00E4CDC5 /* RunScript.m */,
+				981999E0224601BA00E4CDC5 /* Support Files */,
+			);
+			path = "Gatekeeper-Bypass Loader";
+			sourceTree = "<group>";
+		};
+		981999E0224601BA00E4CDC5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				981999D02246017700E4CDC5 /* AppDelegate.h */,
+				981999D12246017700E4CDC5 /* AppDelegate.m */,
+				981999DF2246018D00E4CDC5 /* Gatekeeper-Bypass Loader.entitlements */,
+				981999D32246017800E4CDC5 /* Assets.xcassets */,
+				981999D52246017800E4CDC5 /* MainMenu.xib */,
+				981999D82246017800E4CDC5 /* Info.plist */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		981999E42246031B00E4CDC5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				981999C12243AAFD00E4CDC5 /* Gatekeeper-Bypass.entitlements */,
 				981999B12243A81A00E4CDC5 /* Assets.xcassets */,
 				981999B32243A81B00E4CDC5 /* MainMenu.xib */,
 				981999B62243A81B00E4CDC5 /* Info.plist */,
 			);
-			path = "Gatekeeper-Bypass";
+			name = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,6 +150,24 @@
 			productReference = 981999AC2243A81800E4CDC5 /* Gatekeeper-Bypass.app */;
 			productType = "com.apple.product-type.application";
 		};
+		981999CD2246017700E4CDC5 /* Gatekeeper-Bypass Loader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 981999DE2246017800E4CDC5 /* Build configuration list for PBXNativeTarget "Gatekeeper-Bypass Loader" */;
+			buildPhases = (
+				981999CA2246017700E4CDC5 /* Sources */,
+				981999CB2246017700E4CDC5 /* Frameworks */,
+				981999CC2246017700E4CDC5 /* Resources */,
+				981999E5224603BE00E4CDC5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gatekeeper-Bypass Loader";
+			productName = "Gatekeeper-Bypass Loader";
+			productReference = 981999CE2246017700E4CDC5 /* Gatekeeper-Bypass Loader.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -91,6 +179,14 @@
 				ORGANIZATIONNAME = Jovi;
 				TargetAttributes = {
 					981999AB2243A81800E4CDC5 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					981999CD2246017700E4CDC5 = {
 						CreatedOnToolsVersion = 10.1;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
@@ -114,6 +210,7 @@
 			projectRoot = "";
 			targets = (
 				981999AB2243A81800E4CDC5 /* Gatekeeper-Bypass */,
+				981999CD2246017700E4CDC5 /* Gatekeeper-Bypass Loader */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +225,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		981999CC2246017700E4CDC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981999D42246017800E4CDC5 /* Assets.xcassets in Resources */,
+				981999D72246017800E4CDC5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -139,6 +245,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		981999CA2246017700E4CDC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981999E32246023D00E4CDC5 /* RunScript.m in Sources */,
+				981999DA2246017800E4CDC5 /* main.m in Sources */,
+				981999D22246017700E4CDC5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -146,6 +262,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				981999B42243A81B00E4CDC5 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		981999D52246017800E4CDC5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				981999D62246017800E4CDC5 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -274,6 +398,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/Output";
 				DEVELOPMENT_TEAM = 9P895LY647;
 				INFOPLIST_FILE = "Gatekeeper-Bypass/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -293,6 +418,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/Output";
 				DEVELOPMENT_TEAM = 9P895LY647;
 				INFOPLIST_FILE = "Gatekeeper-Bypass/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -303,6 +429,46 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HyperartFlow.Gatekeeper-Bypass";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		981999DC2246017800E4CDC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/Output";
+				DEVELOPMENT_TEAM = 9P895LY647;
+				INFOPLIST_FILE = "Gatekeeper-Bypass Loader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HyperartFlow.Gatekeeper-Bypass-Loader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		981999DD2246017800E4CDC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/Output";
+				DEVELOPMENT_TEAM = 9P895LY647;
+				INFOPLIST_FILE = "Gatekeeper-Bypass Loader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HyperartFlow.Gatekeeper-Bypass-Loader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -323,6 +489,15 @@
 			buildConfigurations = (
 				981999BB2243A81B00E4CDC5 /* Debug */,
 				981999BC2243A81B00E4CDC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		981999DE2246017800E4CDC5 /* Build configuration list for PBXNativeTarget "Gatekeeper-Bypass Loader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981999DC2246017800E4CDC5 /* Debug */,
+				981999DD2246017800E4CDC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
