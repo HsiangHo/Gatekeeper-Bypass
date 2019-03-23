@@ -1,6 +1,6 @@
 # Gatekeeper-Bypass
 
-[![Packagist](https://img.shields.io/badge/release-1.0.0-blue.svg)](https://github.com/HsiangHo/Gatekeeper-Bypass/releases)
+[![Packagist](https://img.shields.io/badge/release-1.0-blue.svg)](https://github.com/HsiangHo/Gatekeeper-Bypass/releases)
 [![Travis](https://img.shields.io/badge/platform-macOS-yellow.svg)]()
 
 ![Gatekeeper-Bypass](https://github.com/HsiangHo/Gatekeeper-Bypass/blob/master/gatekeeper.png "screenshot")
