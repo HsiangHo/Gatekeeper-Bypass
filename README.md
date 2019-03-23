@@ -3,6 +3,8 @@
 [![Packagist](https://img.shields.io/badge/release-1.0.0-blue.svg)](https://github.com/HsiangHo/Gatekeeper-Bypass/releases)
 [![Travis](https://img.shields.io/badge/platform-macOS-yellow.svg)]()
 
+![Gatekeeper-Bypass](https://github.com/HsiangHo/Gatekeeper-Bypass/blob/master/gatekeeper.png "screenshot")
+
 ## 什么是Gatekeeper
 **macOS 中包含一项名为“门禁”的技术，旨在确保只有受信任的软件才能在 Mac 上运行。** [Apple Support文档](https://support.apple.com/zh-cn/HT202491)
 
